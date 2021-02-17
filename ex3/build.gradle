@@ -1,0 +1,18 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'aup.cs.Simulation'
+
+task pack(type: Zip) {
+   from '.'
+   into 'ex'
+   include 'build.gradle'
+   include 'config/**/'
+   include 'src/**'
+   archiveName 'ex.zip'
+   destinationDir(file('.'))
+}
