@@ -7,6 +7,10 @@ apply plugin: 'application'
 
 mainClassName = 'aup.cs.Simulation'
 
+javadoc {
+   source = sourceSets.main.allJava
+ }
+
 task pack(type: Zip) {
    from '.'
    into 'ex'

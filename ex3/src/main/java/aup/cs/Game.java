@@ -13,7 +13,7 @@ public class Game {
    */
   public void cycle(Player player) {
     player.placeBets(table);
-    Bin winningBin = Wheel.spin();
+    Bin winningBin = wheel.spin();
     player.observeWinningBin(winningBin);
     table.removeBets();
   }

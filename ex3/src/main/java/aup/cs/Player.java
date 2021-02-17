@@ -15,4 +15,13 @@ public class Player {
   public void reset() {
     //TODO
   }
+
+  public void placeBets(Table table) {
+    //TODO
+  }
+
+  public void observeWinningBin(Bin bin) {
+    // TODO
+  }
+
 }

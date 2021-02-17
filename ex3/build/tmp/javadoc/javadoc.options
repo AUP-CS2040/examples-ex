@@ -1,0 +1,12 @@
+-classpath '/home/shaolin/Downloads/tm/ex3/build/classes/java/main:/home/shaolin/Downloads/tm/ex3/build/resources/main'
+-d '/home/shaolin/Downloads/tm/ex3/build/docs/javadoc'
+-doctitle 'tm API'
+-quiet 
+-windowtitle 'tm API'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Player.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Bin.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Simulation.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Game.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Wheel.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Statistics.java'
+'/home/shaolin/Downloads/tm/ex3/src/main/java/aup/cs/Table.java'
